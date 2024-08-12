@@ -1,0 +1,80 @@
+.carousel{
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.carousel-inner{
+   height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.logo{
+    height: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-brand img {
+    height: 40px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-brand span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header .navigation-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.search-form {
+    margin: 8px 0;
+    padding: 0;
+}
+
+.search-form .form-control {
+    width: 200px; 
+}
+
+.search-form .btn-primary {
+    margin-left: 5px; 
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    position: relative;
+    z-index: 10; 
+}
+
+
+
